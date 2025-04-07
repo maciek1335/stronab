@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Public transport</title>
     <link href="../styles/publictransport.css" rel="stylesheet">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3uPVbzY-F_9ais0k0XlvKCGj8i9sxXZ4&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
 </head>
 <body>
-
-
     <div class="menu">
         <div><a href="../index.html">Home</a></div>
         <div class="dropdown">
@@ -23,5 +23,8 @@
         <div><a href="localfood.html">Local food</a></div>
     </div>
 
+    <gmp-map center="43.26335525512695,-2.935015916824341" zoom="14" map-id="DEMO_MAP_ID">
+        <gmp-advanced-marker position="43.26335525512695,-2.935015916824341" title="My location"></gmp-advanced-marker>
+      </gmp-map>
 </body>
 </html>
