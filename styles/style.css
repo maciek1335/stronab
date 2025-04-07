@@ -150,25 +150,6 @@ header .logo
   letter-spacing: 6px;
 }
 
-
-
-@media (max-width: 991px)
-{
-  .showcase,
-  .showcase header
-  {
-    padding: 40px;
-  }
-  .text h2
-  {
-    font-size: 3em;
-  }
-  .text h3
-  {
-    font-size: 2em;
-  }
-}
-
 .menu {
   position: absolute; 
   top: 0;
@@ -208,23 +189,25 @@ header .logo
 }
 
 .dropdown-content {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: -10px;
-  background: rgb(0, 0, 0);
-  width: 250px;
+  background-color: black;
   display: none;
-  padding: 0px 10px 10px 30px;
+  position: absolute;
+
 }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding-left: 40px;
+  padding-right: 50px;
+  box-shadow: 2px 2px 3px -1px rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+
 
 .dropdown-content div {
   margin: 5px 0;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 .content {
   height: 500px;

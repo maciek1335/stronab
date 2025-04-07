@@ -10,7 +10,10 @@
     </script>
 </head>
 <body>
-    <div class="menu">
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+    <div class="menu" id="sideMenu">
         <div><a href="../index.html">Home</a></div>
         <div class="dropdown">
             <div class="drop"><a href="#">Where to go?</a></div>
@@ -26,5 +29,7 @@
     <gmp-map center="43.26335525512695,-2.935015916824341" zoom="14" map-id="DEMO_MAP_ID">
         <gmp-advanced-marker position="43.26335525512695,-2.935015916824341" title="My location"></gmp-advanced-marker>
       </gmp-map>
+
+      <script src="../scripts/script.js"></script>
 </body>
 </html>
