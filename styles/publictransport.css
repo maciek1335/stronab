@@ -39,11 +39,10 @@ header {
   padding: 10px;
   border-radius: 5px;
 }
-
 .menu {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -300px;
   width: 300px;
   height: 100vh;
   color: #fff;
