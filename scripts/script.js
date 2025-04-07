@@ -24,6 +24,12 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+
+function toggleMenu() {
+  const menu = document.getElementById("sideMenu");
+  menu.classList.toggle("open");
+}
+
 // function openNav() {
 //   document.getElementById("sideMenu").style.display = "flex";
 //   document.getElementById("toggleBtn").style.backgroundImage = "url('../images/close.jpg')";
