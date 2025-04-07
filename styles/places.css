@@ -22,7 +22,7 @@ header {
   line-height: 80px;
   position: fixed;
   left: 0;
-  right: 0;
+  right: 0;  
 }
 
 .menu-toggle {
@@ -101,12 +101,16 @@ header {
   flex-direction: column;
 }
 
-.place1 {
+ .place, .place1 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
   gap: 20px;
   align-items: center;
+}
+
+.place {
+  margin-top: 100px;
 }
 
 .img1 img {
