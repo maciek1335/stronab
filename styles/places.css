@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background-image: rgb(255, 255, 255);
+}
+
 @keyframes slow-show {
   0% {
     opacity: 0;
@@ -79,67 +83,32 @@
     display: block;
   }
 
-.places-section {
-  margin-left: 100px;
-  display: flex;
-  flex-direction: column;
+
+  .places-section {
+    padding: 30px;
 }
 
-.places-section div {
-  margin: 20px;
-  height: 400px;
-  width: 400px;
-  min-width: 400px;
-  min-height: 400px;
-}
 .place1 {
-  display: flex;
-  flex-direction: row;
-
-}
-.place2 {
-  display: flex;
-  flex-direction: row;
-
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 20px;
+    align-items: center;
 }
 
-.place1 div {
-  background-color: lightgray;
-  
-}
-.place2 div {
-  background-color: lightgreen;
-}
-
-.img1 {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  animation: slow-show 1s ease 100ms;
-}
-.img2 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  animation: slow-show 1s ease 100ms;
+.img1 img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    animation: slow-show 1s ease 100ms;
 }
 
-.text1 {
-  font-size: 19.5px;
-  text-align: justify;
-  color: black;
-  padding: 10px;
-  animation: slow-show 1s ease 300ms;
-}
-.text2 {
-  font-size: 19.5px;
-  text-align: justify;
-  color: black;
-  padding: 10px;
-  animation: slow-show 1s ease 300ms;
-}
-
-.img1 img {
-  width: 500px;
-  height: 400px;
+.text1 p{
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+    animation: slow-show 0.5s ease 100ms;
 }
