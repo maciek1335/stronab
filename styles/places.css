@@ -125,7 +125,7 @@ header {
   height: 400px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
   animation: slow-show 1s linear 100ms;
 }
 
