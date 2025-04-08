@@ -10,7 +10,7 @@
 
 body {
   min-height: 100vh;
-  background-color: #ffffff;
+  background: linear-gradient(135deg, #dcdcc5 0%, #ffffff 100%);
   position: relative;
   font-family: 'Poppins', sans-serif;
 }

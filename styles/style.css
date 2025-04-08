@@ -227,7 +227,7 @@ header .logo
 }
 
 .content {
-  height: 500px;
+  height: 2500px;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -245,7 +245,6 @@ header .logo
 
 .historiabilbao {
   position: relative;
-
   height: 100px;
   width: 500px;
   text-align: justify;
@@ -270,7 +269,6 @@ height: 400px;
 
 .history {
   animation: slow-show 1s;
-  display: flex;
   flex-direction: row;
   height: 800px;
 }
@@ -282,7 +280,7 @@ height: 400px;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: orange;
+  background-color: rgb(209, 120, 72);
   z-index: 100;
   display: flex;
   justify-content: center;
