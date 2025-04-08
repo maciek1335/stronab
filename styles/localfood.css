@@ -98,5 +98,38 @@ header {
   border-radius: 5px;
 }
 
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;  
+}
 
+.dish-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+}
 
+.dish-container div {
+  width: 600px;
+}
+
+img {
+  object-fit: cover;
+}
+.content {
+  margin: 100px 10px 10px 10px;
+}
+
+.content p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
