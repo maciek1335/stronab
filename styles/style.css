@@ -237,12 +237,14 @@ header .logo
 position: relative;
 top: 10px;
 height: 400px;
+width: 700px;
 }
 
 #zdjbilbao2 {
   position: relative;
   top: -25px;
   height: 400px;
+  width: 700px;
   }
 
 @keyframes slow-show {
