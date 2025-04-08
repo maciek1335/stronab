@@ -22,9 +22,20 @@ header {
   line-height: 80px;
   position: fixed;
   left: 0;
-  right: 0;  
+  right: 0;
+  top: 0;  
 }
 
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  left: 0;
+  right: 0;  
+}
 
 .menu-toggle {
   position: fixed;
@@ -97,10 +108,107 @@ header {
   border-radius: 5px;
 }
 
-  gmp-map {
-    height: 500px;
-    width: 500px;
-  }
+.container {
+  display: flex;
+  column-gap: 40px;
+  padding: 30px;
+  margin-top: 100px;
+  height: 100%;
+}
+
+.container-element {
+  width: 400px;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-element-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  flex-grow: 8;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.cont div {
+  width: 400px;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.container div {
+  height: 400px;
+}
+
+.barik img {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.bizkaia img {
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.container-element-2 h3 {
+  margin-bottom: 10px;
+}
+
+.container-element img{
+  margin-top: 75px;
+  margin-left: 10px;
+}
+  
+.metro-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.transport-pictures {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.transport-pictures img {
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.5);
+}
+
+.google-maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+gmp-map {
+  margin-top: 20px;
+  height: 600px;
+  width: 90%;
+}
 
   /* Optional: Makes the sample page fill the window. */
   html,
