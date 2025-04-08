@@ -8,12 +8,16 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  min-height: 100vh;
+html, body {
+  scroll-behavior: smooth;
   background: linear-gradient(135deg, #dcdcc5 0%, #ffffff 100%);
   position: relative;
   font-family: 'Poppins', sans-serif;
+  height: 100%;
+  overflow-x: hidden;
 }
+
+
 
 header {
   background-color: black;
@@ -126,10 +130,11 @@ header {
 
 .dish-description img {
   width: 590px;
+  height: 300px;
   object-fit: cover; 
-  position: absolute;
   bottom: 5px;
 }
+
 
 .dish {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -163,6 +168,8 @@ header {
   user-select: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
+
+
+
+
