@@ -13,6 +13,8 @@
 
     <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
 
+    <header><h1>Public transport</h1></header>
+
     <div class="menu" id="sideMenu">
         <div><a href="../index.html">Home</a></div>
         <div class="dropdown">
@@ -26,10 +28,58 @@
         <div><a href="localfood.html">Local food</a></div>
     </div>
 
-    <gmp-map center="43.26335525512695,-2.935015916824341" zoom="14" map-id="DEMO_MAP_ID">
-        <gmp-advanced-marker position="43.26335525512695,-2.935015916824341" title="My location"></gmp-advanced-marker>
-      </gmp-map>
+    <div class="container">
+        <div class="container-element">
+            <h2>How to get around in Bilbao</h2>
+            <p>Bilbao has a well-developed public transport system that includes metro, tram, bus, and funicular services. The Bilbao Metro is the most popular mode of transport, connecting the city center with the suburbs and surrounding areas. The tram service is also a convenient way to get around the city, while the bus network covers a wider area. The funicular provides access to the hills surrounding the city, offering stunning views of Bilbao.</p>
+            <img src="../images/metro (2).jpg" alt="" height="280px">
+        </div>
+        
+        <div class="container-element-2">
+            <h2>What do you need to use them? </h2>
+            <div class="cont">
+            <div class="barik">
+                <h3>Barik card:</h3>
+                <ul>
+                    <li><strong>Purpose</strong>: A rechargeable card for traveling on public transport within Bizkaia (metro, tram, buses, Euskotren, Renfe, etc.). </li>
+                    <li><strong>Types</strong>: Anonymous (top-up, can be shared) and Personalized (linked to specific profiles like Gizatrans, Creditrans, etc.). </li>
+                    <li><strong>Cost</strong>: The card itself costs €3, and you need to load a minimum of €5 to use it.</li>
+                    <li><strong>Where to buy</strong>: Available at Bilbao Metro stations, vending machines, and other locations. </li>
 
+                </ul>
+                <img src="../images/barik.jpg" alt="">
+            </div>
+            <div class="bizkaia">
+                <h3>Bilbao Bizkaia Card:</h3>
+                <ul>
+                    <li><strong>Purpose</strong> A tourist card offering unlimited travel on public transport, priority access to cultural facilities, and discounts on leisure activities and restaurants within Bizkaia. </li>
+                    <li><strong>Duration</strong>: Available for 24, 48, or 72 hours. </li>
+                    <li><strong>Cost</strong>: Varies depending on the duration (24 hours: €10, 48 hours: €15, 72 hours: €20). </li>
+                    <li><strong>Where to buy</strong>: <a href="https://www.bilbaoturismo.net/BilbaoTurismo/en/transport-cards/barik">Bilbao Turismo</a>.</li>
+                </ul>
+                <img src="../images/bizkaia.jpg" height="180px" alt="">
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="metro-map">
+            <h1>Metro map</h1>
+            <img src="../images/metro-bilbao.jpg" alt="Metro map" >
+        </div>
+
+        <div class="transport-pictures">
+            <img src="../images/metro.jpg" alt="Metro">
+            <img src="../images/tram.webp" alt="Tram">
+            <img src="../images/bus.jpg" alt="Bus">
+        </div>
+
+        <div class="google-maps">
+            <h2>Bilbao map</h2>
+            <gmp-map center="43.26335525512695,-2.935015916824341" zoom="14" map-id="DEMO_MAP_ID">
+                <gmp-advanced-marker position="43.26335525512695,-2.935015916824341" title="My location"></gmp-advanced-marker>
+              </gmp-map>
+        </div>
       <script src="../scripts/script.js"></script>
 </body>
 </html>
