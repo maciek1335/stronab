@@ -153,3 +153,24 @@ header {
     transform: translateY(0);
   }
 }
+
+#scrollBtn {
+  all: unset;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(253, 137, 74);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}

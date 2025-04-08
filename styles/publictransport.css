@@ -200,11 +200,29 @@ gmp-map {
   width: 90%;
 }
 
-  /* Optional: Makes the sample page fill the window. */
+
   html,
   body {
     height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  #scrollBtn {
+    all: unset;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(253, 137, 74);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
   }
