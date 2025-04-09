@@ -22,9 +22,7 @@ header {
   line-height: 80px;
   position: fixed;
   left: 0;
-  right: 0;
-  top: 0;  
-  z-index: 1000;
+  right: 0;  
 }
 
 .menu-toggle {
