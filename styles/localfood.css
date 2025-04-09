@@ -13,11 +13,7 @@ html, body {
   background: linear-gradient(135deg, #dcdcc5 0%, #ffffff 100%);
   position: relative;
   font-family: 'Poppins', sans-serif;
-  height: 100%;
-  overflow-x: hidden;
 }
-
-
 
 header {
   background-color: black;
