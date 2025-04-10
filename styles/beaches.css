@@ -26,6 +26,26 @@ header {
   right: 0;  
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+  
+}
+
+.header-content img {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.header-content a {
+  all: unset;
+  cursor: pointer;
+  padding: 5px;
+}
 
 .menu-toggle {
   position: fixed;
@@ -34,7 +54,7 @@ header {
   background-color: black;
   color: white;
   border: none;
-  font-size: 20px;
+  font-size: 24px;
   z-index: 1001;
   cursor: pointer;
   padding: 10px;
@@ -174,7 +194,6 @@ header {
 html {
   scroll-behavior: smooth;
 }
-
 footer {
   position: absolute;
   left: 0;
@@ -190,7 +209,11 @@ footer {
 }
 
 footer a {
-  margin: 15px;
+  padding: 15px;
   text-decoration: none;
   color: white;
+}
+
+footer a:hover {
+  color: orange;
 }
