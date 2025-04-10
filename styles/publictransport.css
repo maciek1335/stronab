@@ -260,6 +260,7 @@ gmp-map {
 
 footer a {
     padding: 15px;
+    padding-bottom: 12px;
     text-decoration: none;
     color: white;
 }
